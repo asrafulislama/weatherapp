@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  margin: 15% auto;
+  border-radius: 20px;
+  padding: 40px 30px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  text-align: center;
+}
+
+.sar {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.sar img {
+  width: 22px;
+}
+
+.sar input {
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background: linear-gradient(#e3fff7, #fff);
+  flex: 1;
+  font-size: 20px;
+}
+
+.sar button {
+  border: none;
+  background: linear-gradient(#e3fff7, #fff);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wather .wather-img {
+  width: 170px;
+  height: 170px;
+  margin-top: 30px;
+}
+
+.wather h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.wather h2 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.ditals {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  color: #fff;
+}
+
+.col {
+  display: flex;
+  gap: 10px;
+  text-align: start;
+}
+
+.col img {
+  width: 40px;
+}
+
+.humidity,
+.wind {
+  font-size: 28px;
+  margin-top: -13px;
+}
